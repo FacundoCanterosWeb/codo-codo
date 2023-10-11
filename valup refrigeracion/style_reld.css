@@ -1,0 +1,344 @@
+/*Generales*/
+
+a:hover{
+    text-decoration: none;
+    color: #bbb;
+}
+.icono_barra:hover{
+    color: #bbb;
+	
+}
+
+
+/*Header Login*/
+.contenedor-botonera-login {
+    background-color: #2b4b96;
+}
+
+#logo {
+    margin-bottom: 10px;
+}
+
+#botonera-login {
+    color: #fff;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+#botonera-login ul li {
+    line-height: 40px;
+}
+
+.icono_login{
+	font-size: 20px !important;
+    position: relative;
+    left: 0px;
+    top: 5px;
+}
+
+.icono_barra {
+    font-size: 30px !important;
+    color: #ffffff;
+    top: 6px;
+    position: relative;
+}
+
+.menu_cliente {
+    color: #2b4b96;
+    margin-top: 23px;
+}
+
+#nom_clien{
+    height: 46px;
+    cursor: pointer;
+}
+
+/*Header Logo - Buscador*/
+
+.header-logo{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-buscador{
+    padding: 20px 0px;
+    max-width: 700px;
+    min-width: 300px;
+    width: 100%;
+}
+
+#botonera-iconos {
+    width: 100%;
+    justify-content: flex-end;
+    min-width: 30px;
+}
+
+.buscador{
+    width: 100%;
+    padding-left: 10px;
+    /*padding-right: 10px;*/
+}
+
+.lupa{
+    color: white;
+    border-top: 2px solid #2b4b96;
+    border-left: 0px;
+    border-right: 2px solid #2b4b96;
+    border-bottom: 2px solid #2b4b96;
+
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+
+.buscador input {
+    min-width: 50px;
+    border: 2px solid #2b4b96;
+    flex: 1 1;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 3px;
+
+}
+
+
+
+
+/*Header Menu*/
+
+#menu{
+	background: #2b4b96
+}
+
+#botonera-texto {
+	width: 100%;
+	/* overflow-x: auto; */
+	padding: 5px 0;
+}
+#botonera-texto ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 85px;
+}
+
+#botonera-texto ul li a img {
+    height: 110px;
+    border-radius:3px;
+}
+
+#botonera-texto ul li a img:hover {
+	background-color:#30509c;	
+    box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.35);
+}
+
+/*anchos y alto*/
+#botonera-texto::-webkit-scrollbar {
+    width: 5px;
+    height:10px;
+}
+/* deslizador*/
+#botonera-texto::-webkit-scrollbar-thumb {
+    background: #507fec; 
+}
+/* deslizador hover*/
+#botonera-texto::-webkit-scrollbar-thumb:hover {
+    background: #253352; 
+}
+/*camino del scroll*/
+#botonera-texto::-webkit-scrollbar-track {
+    background: #dfe1e6; 
+}
+
+/*Header Slider*/
+
+.marquee-contenedor{
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 0px;
+    /* max-width: 100%; */
+    /* min-width: 100%; */
+    padding: 0 10px;
+}
+.marquee-contenedor img{
+     width: 100%;
+}
+
+
+#logos img{
+    height: 40px;
+    width:auto;/*
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;*/
+}
+
+/*Resultado articulos*/
+.destacado-titulo2{
+    width: 100%;
+    background-color: #2b4b96;
+    height: auto;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    padding-left: 10px;
+    text-align: left;	
+    
+    /*prueba sombras*/
+    margin-bottom: 12px;
+}
+.centrar{
+    text-align: center;
+}
+
+.resultado {
+    flex: 1 1 63%;
+}
+.cuadro_stock{
+    background-color: rgba(255,255,255,0.85);
+    padding: 0px 3px;
+    border-radius: 3px;
+    font-size: 12px !important;
+    margin-left: 5px;
+}
+
+.cuadro_stock2 {
+    background-color: #e4e7ec;
+    padding: 0px 3px;
+    border-radius: 3px;
+    font-size: 1em !important;
+}
+
+/*modo grilla*/
+.resultado-grilla .col6{
+    width: 15% !important;
+    min-width: 130px;
+}
+.resultado-grilla{
+    flex: 1 1 63%;
+}
+
+.col_stock{
+    width: auto;
+    font-size: 0.15em !important;
+    text-align: center;
+}
+
+/*empresa*/
+.institucionales, .institucionales img {
+    width: 100%;
+    padding: 0px;
+}
+
+/*footer*/
+
+.paginacion {
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.footer-contendor-abajo{
+	height: 200px;
+    display: flex;
+}
+.flex-footer{
+	display: flex;
+    flex-direction: column;
+    align-items: center;	
+}
+.footer-logos{
+	font-size: 30px;
+    color: #fff;
+}
+.footer-logos i{
+	margin: 0 10px;
+}
+
+.footer-textos {
+    color: #fff;
+    font-size: 13px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+.footer-textos p {
+    margin: 10px 0px;
+}
+
+
+/*Mis pedidos*/
+
+.contenido-pedidos table thead tr{
+    color: #fff;
+    border: 1px solid #2b4b96;
+    font-size: 0.17em;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: left;
+    background: rgb(43, 75, 150);
+    background: -moz-linear-gradient(top,rgb(43, 75, 150) 0%, rgb(43, 75, 150) 32%, rgb(43, 75, 150) 87%, rgb(43, 75, 150) 100%);
+    background: -webkit-linear-gradient(top, rgb(43, 75, 150) 0%, rgb(43, 75, 150) 32%, rgb(43, 75, 150) 87%, rgb(43, 75, 150) 100%);
+    background: -o-linear-gradient(top, rgb(43, 75, 150) 0%, rgb(43, 75, 150) 32%, rgb(43, 75, 150) 87%, rgb(43, 75, 150) 100%);
+    background: -ms-linear-gradient(top, rgb(43, 75, 150) 0%, rgb(43, 75, 150) 32%, rgb(43, 75, 150) 87%, rgb(43, 75, 150) 100%);
+    background: linear-gradient(to bottom, rgb(43, 75, 150) 0%, rgb(43, 75, 150) 32%, rgb(43, 75, 150) 87%, rgb(43, 75, 150) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fadeda', endColorstr='#f0d9d6', GradientType=0 );
+}
+
+.contenido-pedidos table tbody tr:hover{
+    background-color: #6c8cd6;
+    cursor: pointer;
+}
+
+.contenido-pedidos table tbody .row-rojo{
+    background-color: #fa3939;
+}
+
+.contenido-pedidos #rojo{
+    background-color: #fa3939;
+}
+.contenido-pedidos #ama{
+    background-color: #faf739;
+}
+.contenido-pedidos #ver{
+    background-color: #49fc49;
+}
+
+@media screen and (max-width: 670px){ /*Cel*/
+    
+	.header-logo{
+	    flex-direction: column;
+    }
+
+    .contenedor-interno {
+        max-width: 500px; 
+    }    
+
+	#botonera-texto ul li a img {
+	    height: 90px;
+	}
+
+	.footer-logos {
+	    flex-direction: row;
+	}
+
+    .marquee-contenedor{
+        width: 100%;
+    }
+}

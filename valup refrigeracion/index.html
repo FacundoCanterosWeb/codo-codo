@@ -1,0 +1,1219 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VALUP REFRIGERACION</title> 
+    <meta charset="ISO-8859-1" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <meta http-equiv="Content-Language" content="es"/>
+    <meta id="imagenProducto" property="og:image:url" content=""/>
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="500" />
+    <meta id="textoProducto" property="og:description" content=""/>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style_grilla.css">
+    <link rel="stylesheet" type="text/css" href="marquee.css">
+    <link rel="stylesheet" type="text/css" href="style_reld.css">
+    <link rel="stylesheet" type="text/css" href="style_nuevo_header_reld.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <script src="funciones_java.js"></script>
+
+    <!-- Jquery UI  LOC FENIX 
+    Tema actual:http://jqueryui.com/themeroller/#!zThemeParams=5d00000100d805000000000000003d8888d844329a8dfe02723de3e5700bbb34ecf36cdef1e1654faa0015427bdb9eb45ebe89aaede0ec5f0d92417fcc6551ce804ff46bf543167700d2cf4e583f2515147aacb86ffa11c0e588dae72a13c98dc37478199f7eea536e99702ea71406d59d8f5b8b635ab08c8738e4fb8e66d9cae65aedf495dd6c449095b82c412ee02d38b3d0cdae45b0a6d001af1cccd8aaf39539e0de4317535143f4b2e9c3c8996edafeedd8ce9e3f2b414aa899a72c730482b6643db9bdae754cde51cdbe5c1276bf3d2451b78b4b518015fd973ebdb1feff8b4d6ee3db07f4bd3f23684f3cf0cfb5b5deec66be9cbbd00fc2348bf8a7394f4d6b1824baa9048594d255e090e0a4700c54cee1046d75ea8afdc84245556c9ae01bed59c1800dc56d327be7531d9c8d90539b57c8bcbaffcf79cf32a729b398d196baa0cbc9c0e544d5c2663255ca4ee184042d77cfea3b3c0e397bd0d209eeb21326360f275a160c38ce19ba5a2f014f7e4fec070dfea1b931d2fc3c566d7fd284e5ff1568fbdbdc9fc20200a13d04da894a65e15751a094dd324761b9b483bb8ae3829321677333dd7fd4082dcbe30f4a798d380b6a9f9ac75e6c2f4a53074bda9beb96ed6979c3a421ffd4ed13b0
+    -->
+    <!-- <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
+    <script src="js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
+    <link rel="stylesheet" href="js/jquery-ui-1.11.4.custom/jquery-ui.css">    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="js/fancyBox/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="js/fancyBox/jquery.fancybox.css?v=2.1.5" media="screen" />
+    <link rel="stylesheet" type="text/css" href="js/fancyBox/mi_estilo_fancybox.css" media="screen" />    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<!-- Facebook Pixel Code LOC RELD-->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '609119506234885');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=609119506234885&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+</head> 
+<body>     
+
+<script type="text/javascript">
+var isOpen=0;
+
+$(document).ready(function() {
+    $("#registarse").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'registarse.php',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true,
+        'autoDimensions':   true
+
+    });
+
+    $("#cambiar_clave").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'cambiar_clave.php',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true
+
+    });
+
+    $("#mis_datos").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'datos_cliente.php',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true
+
+    });
+
+    $("#login").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'signin.php?form=home',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true
+
+    });
+
+    $(".consultas").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'consultas.php',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true
+
+    });
+    
+    $(".trabaja").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'trabaja.php',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true
+
+    });
+
+    $(".lista_precios").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'lista_precios.php',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true
+
+    });
+    
+    $(".novedades").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'novedades.php',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true
+
+    });
+    
+    $(".reld_news").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'reld_news.php',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true
+
+    });
+    
+    $(".tutoriales").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'tutoriales.php',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true
+
+    });
+    
+    $(".expo").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'expo.php',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true
+
+    });
+    
+    $(".programas").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'fade',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false,
+        'titlePosition' :   'inside',
+        'href'          :   'programas.php',
+        'type'          :   'ajax',
+        wrapCSS         :   'mifancy',
+        autoSize        :   true
+
+    });
+
+    $('#btn-buscar').click(function() {
+     // document.location="index_grilla.php?agru_1=&agru_2=&agru_3=&articulo="+$("#busqueda").val();      
+      document.location="index_grilla.php?articulo="+$("#busqueda").val();      
+    });
+
+    $('#btn-buscar2').click(function() {
+     // document.location="index_grilla.php?agru_1=&agru_2=&agru_3=&articulo="+$("#busqueda").val();      
+      document.location="index_grilla.php?articulo="+$("#busqueda2").val();      
+    });
+
+    $('#mis_pedidos').click(function() {
+      document.location="mis_pedidos.php";      
+    });
+
+    $('#compo_saldos').click(function() {
+      document.location="compo_saldos.php";      
+    });    /*$('#ver_menu').hover(function() {
+      $('.menu_cliente').animate({
+            height: 'auto'
+        });    
+    });
+    
+    $(".menu_cliente").css('display','none');*/
+
+    $("#busqueda").keypress(function(e) {
+       if(e.which == 13) {
+          $('#btn-buscar').click();
+       }
+    }); 
+
+    $("#busqueda2").keypress(function(e) {
+       if(e.which == 13) {
+          $('#btn-buscar2').click();
+       }
+    });    
+
+    $("#btn-menu").click(function(){
+        $("#botonera-login").toggleClass("open", function() {
+            if ($("#desplegable-cliente").hasClass("menu_cliente"))
+                $("#desplegable-cliente").removeClass("menu_cliente").addClass("menu-cliente-mobile");
+            else
+                $("#desplegable-cliente").removeClass("menu-cliente-mobile").addClass("menu_cliente");
+        });
+    });
+    //setInterval(RenovarSession, 30000);
+
+    $(window).resize(function() {
+        if($(window).width()>=670){
+            if ($("#desplegable-cliente").hasClass("menu-cliente-mobile"))
+                $("#desplegable-cliente").removeClass("menu-cliente-mobile").addClass("menu_cliente");
+        }else{
+            if ($("#desplegable-cliente").hasClass("menu_cliente"))
+                $("#desplegable-cliente").removeClass("menu_cliente").addClass("menu-cliente-mobile");
+        }
+    });
+
+});
+
+function RenovarSession() {
+        $.get("renovar_session.php", function(data){
+        comprobar_sesion_cerrada(data);
+      });
+ }
+
+</script>
+    <header>
+        <div class="barra-superior">
+
+            <div class="barra-info"> 
+                <div class="elemento-barra-info ocultar-mob">
+                     <a href="javascript:;"><i class="material-icons iconos-info">call</i>1126791315</a>
+                </div> 
+                <div class="elemento-barra-info ocultar-mob">
+                    <a href="https://www.google.com/maps/place/Int.+Juan+Irigoin+2020,+B1663LFN+San+Miguel,+Provincia+de+Buenos+Aires/@-34.542,-58.7268,17z/data=!4m5!3m4!1s0x95bcbd65eff0b32b:0xcc3135bb6b52d839!8m2!3d-34.5418853!4d-58.7268672?hl=es&entry=ttu" target="_blank"><i class="material-icons iconos-info">location_on</i> Buenos Aires, Argentina</a>
+                </div> 
+                <div class="elemento-barra-info">
+                    <a href="javascript:;"><i class="material-icons iconos-info">access_time</i>Horario: L a V, 8:30 a 18:00hs.</a>
+                 </div>
+                <div class="elemento-barra-info">
+                    <a href="valuprefrigeracion@outlook.com"><i class="material-icons iconos-info">email</i>valuprefrigeracion@outlook.com</a>
+                </div>
+
+                <div class="barra-redes ocultar-mob"> 
+                    <div class="elemento-red-social">
+                    <a href="https://www.instagram.com/valuprefrigeracion/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                 <div class="elemento-red-social">
+                        <a href="https://www.facebook.com/profile.php?id=100073247937505" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                 </div>
+                  <!--  <div class="elemento-red-social">
+                 <a href="https://twitter.com/reldsacifia" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                 </div>
+                 <div class="elemento-red-social">
+                 <a href="https://www.youtube.com/channel/UCiLhTz9tPTjDbZBl-7QMgpg/videos" target="_blank"><i class="fab fa-youtube"></i></a>
+                 </div>
+                 <div class="elemento-red-social">
+                 <a href="https://ar.linkedin.com/company/reld-sacifia" target="_blank"><i class="fab fa-linkedin"></i></a>
+                 </div>-->
+               </div>
+        </div>
+    </div>
+
+    
+
+        <div class="contenedor-botonera-login" style="height: 50px;">
+        <nav id="botonera-login" class="contenedor-interno"> 
+           
+                            <li><a href="index.html" id="registarse">Inicio</a></li>
+                                                    <li class="pipe"></li>
+                <li><a href="empresa.php" >Quienes somos</a></li> 
+                <li class="pipe"></li>
+                <li> <a id="btn-contacto">Contacto</a></li>
+
+                    <div id="formulario-overlay" class="overlay">
+                      <div class="formulario">
+                        <!-- Contenido de tu formulario aquí -->
+                        <h2 style="color: black;">Formulario de Contacto</h2>
+                        
+				<form method="post" action="enviar_formulario.php">				
+
+					
+                    <p>
+                        <label for="introducir_nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label> <br>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                
+                    <p>
+                        <label for="introducir_email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label><br>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+            
+                    <p>
+                        <label for="introducir_telefono" class="colocar_telefono">Telefono
+                        </label><br>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu telefono">
+                    </p>						
+                
+                    <p>
+                        <label for="introducir_mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>     <br>                
+                             <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aqui tu comentario..."></textarea> 
+                       </p>	  								
+                
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                    <button id="cerrar-formulario">Cerrar</button>
+
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>					
+            
+        </form>
+                        
+                      </div>
+                    </div>
+                    
+                    <script src="script.js"></script></li> 
+                <li class="pipe"></li>
+                <li id="ver_menu">
+                                                    
+                            </li>
+                
+            </div> 
+        </nav>
+        <nav id="botonera-login-mobile">
+        <div id="menu-mobile" style="display:flex">
+            <i class="material-icons" id="btn-menu">menu</i>
+
+            <div id="menu-buscador" class="ocultar-dsk">
+                <nav id="botonera-iconos">
+                    <div class="buscador"  style="width:95%">
+                        <input type="text" id="busqueda2" placeholder="Buscar por modelo, c?digo o descripci?n" class="input-rojo">
+                        <div class="material-icons lupa" id="btn-buscar2">search</div>
+                    </div>
+                </nav> 
+            </div> 
+
+        </div>
+
+
+        </nav>
+        </div>             
+
+        <div class="contenedor-interno header-logo">
+            <figure id="logo">
+                <!-- <a href="index_grilla.php" class="logo"><img src="img/logo.png" height="50"></a> -->
+                <a href="#" class="logo"><img src="img/valup1.png" style="border-radius: 5%;"></a>
+            </figure>
+            
+ 
+
+            <div id="menu">
+                <nav id="botonera-texto"> 
+
+                    <ul>
+                        <li id="ver_agrupaciones">
+                            <a href="javascript:;">
+                                <img src="img/Icono Aire acondicionado.png"><div class="titulo">Aire Acondicionado</div>
+                            </a>
+                            <div class="menu_agru">
+                                <span class="titulo2">Aire Acondicionado</span>
+                                                                   <a href="AireAcondicionado.html">ACCESORIOS PARA SPLIT</a>
+                                                                  <!-- <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=028">CALEFACCION-BOMBA DE CALOR</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=033">CORTINAS DE AIRE</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=032">EQUIPOS DE AIRE ACONDICIONADO</a>-->
+                                                                   <a href="RepuestoAireAcondicionado.html">REPUESTOS AIRE ACONDICIONADO</a>
+                                                            </div>
+                        </li>
+                        
+                        <li id="ver_agrupaciones">
+                            <a href="javascript:;">
+                                <img src="img/Icono Refrigeracion.png"><div class="titulo">Refrigeracion</div>
+                            </a>
+                            <div class="menu_agru">
+                                <span class="titulo2">Refrigeración</span>
+                                                                <!--  <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=064">ACCESORIOS PARA INSTALACIONES</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=058">ACUM-SEPARAD-C/NIVEL-RECIBID.</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=010">ARTICULOS PLASTICOS HELADERAS</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=085">BOMBAS DE FLUIDOS</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=022">BURLETES</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=098">ELECTRODOMESTICOS</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=100">EQUIPOS DE FRIO COMERCIALES</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=026">EVAPORADORES FAMILIARES</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=056">EVAPORADORES Y CONDENSADORES</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=062">FILTROS</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=050">FORZADORES Y MOTORES</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=020">HERRAJES</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=055">INTERCAMBIADORES A PLACA</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=095">REP.DE LAVARROPAS Y SECARROP</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=029">REPUESTOS LINEA FAMILIAR </a>--> 
+                                                            </div>
+                        </li>
+                        
+                        <li id="ver_agrupaciones">
+                            <a href="javascript:;">
+                                <img src="img/Icono insumos y herramientas.png"><div class="titulo">Insumos y Herramientas</div>
+                            </a>
+                            <div class="menu_agru">
+                                <span class="titulo2">Insumos y Herramientas</span>
+                                                                  <a href="Soldadura.html">AISLACION--SOLDADURA</a>
+                                                                  <!--<a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=067">BRONCERIA</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=065">CAÑERIA Y ACCESORIOS</a>-->
+                                                                   <a href="Refrigerantes.html">GASES REFRIGERANTES</a>
+                                                                   <!--  <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=094">INSTRUMENTOS DE MEDICION</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=090">INSTRUMENTOS Y HERRAMIENTAS</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=075">MATERIALES ELECTRICOS</a>-->
+                                                                   <a href="ProdQuimicos.html">PRODUCTOS QUIMICOS</a>
+                                                            </div>
+                        </li>
+                        
+                        <li id="ver_agrupaciones">
+                            <a href="javascript:;">
+                                <img src="img/Icono motocompresores.png"><div class="titulo">Compresores</div>
+                            </a>
+                            <div class="menu_agru">
+                                <span class="titulo2">Compresores</span>
+                                                                 <!--  <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=042">MOTOCOMPRESORES A.ACONDICIONADO</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=040">MOTOCOMPRESORES REF.COMERCIAL</a>-->
+                                                                   <a href="Compresores.html">MOTOCOMPRESORES REF.FAMILIAR</a>
+                                                                 <!--  <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=046">REPUESTOS COMPRESORES</a>-->
+                                                            </div>
+                        </li>
+                        
+                        <li id="ver_agrupaciones">
+                            <a href="javascript:;">
+                                <img src="img/Icono controles y valvulas.png"><div class="titulo">Controles y Valvulas</div>
+                            </a>
+                            <div class="menu_agru ultimo">
+                                <span class="titulo2">Controles y Válvulas</span>
+                                                               <!--   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=068">CONTROLES</a>
+                                                                   <a href="index_grilla.php?articulo=&cant_x_pagina=12&modo_grilla=S&agru_1=060">VALVULAS</a>--> 
+                                                            </div>
+                        </li>
+                    </ul>                    
+<!--                <ul>
+                        <li class="activo" ><a href="index_grilla.php" title="Home">HOME</a></li>
+                        <li class="pipe">|</li>
+                        <li  ><a href="empresa.php" title="Empresa">EMPRESA</a></li>
+                        <li class="pipe">|</li>
+                        <li  ><a href="donde_estamos.php" title="Donde Estamos">DONDE ESTAMOS</a></li>
+                        <li class="pipe">|</li>
+                        <li  ><a href="javascript:;" class="consultas">CONTACTO</a></li>
+                    </ul>       -->            
+                </nav>
+            </div>
+        </div>
+<div class="destacado-titulo2" style="
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1180px;
+    height: 4px;
+"> - Productos Destacados - </div>
+    </header>        <style>
+            .swiper-container {
+                width: 100%; 
+                /*padding-bottom: 20px;*/
+            }
+            .swiper-container img{
+                /*max-width: 750px;*/
+            }
+            .swiper-slide {
+                /* Center slide text vertically */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>        <!-- swipe http://idangero.us/swiper -->
+        <script src="swiper.min.js"></script>
+        <link rel="stylesheet" href="swiper.css">
+
+        <div class="banner" id="slider_banner">
+            <div class="marquee-contenedor">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        
+                        <div class="swiper-slide">
+                            <a href="https://www.instagram.com/p/CvaJLnUOw2O/" target="_blank">
+                                <img src="port3.jpeg" width="100%" height="350px">
+                            </a>
+                        
+                        
+                        </div>
+                            <div class="swiper-slide">
+                                    <img src="port.jpeg" width="100%" height="350px" >
+                                
+
+                            
+                            </div>
+                        
+                            <div class="swiper-slide">
+                                    <img src="port1.jpeg" width="100%" height="350px">
+                            
+
+                            
+                            </div>
+                    
+                            
+
+                           
+                            
+                            </div>
+                        
+                          
+                                            </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+
+            //esta linea tiene que estar en el document.ready
+            //$('.swiper-slide a').click(function() { window.location.href = $(this).attr("href"); });
+
+            var slider_banner = new Swiper('#slider_banner .swiper-container', {
+                loop: 'true',
+                slidesPerView: '1', // original auto
+                spaceBetween: 0, //original 30 es un margin entre sliders
+                centeredSlides: true,
+                autoplay: 4500,
+                autoplayDisableOnInteraction: false,
+                paginationClickable: true
+            });
+        </script>    
+<div id="logos" style="margin-top:10px;margin-bottom:10px" class="marquee-contenedor"> 
+            <figure class="slider_marcas" id="slider_marcas">
+                <div class="swiper-container" style="height:40px;">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->  
+
+                            
+                            <div class= "swiper-slide"><img src="img/marcas/Bristol.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Cardiff.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Carrier.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Chemours.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Copeland.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Cubigel.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Danfoss.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Dixell.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Dosivac.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Dunan.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Ebmpapst.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Elco.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Elitech.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Eluma.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Embraco.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Emerson.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Fusheng.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/GMCC.PNG"></div>
+                           
+                            
+                            
+                           
+                            
+                           
+                           
+                            
+                           
+                            
+                            <div class= "swiper-slide"><img src="img/marcas/Panasonic.png"></div>
+                            
+                            <div class= "swiper-slide"><img src="img/marcas/Polar.png"></div>
+                          
+                            
+                          
+                            <div class= "swiper-slide"><img src="img/marcas/Surrey.png"></div>
+                           
+                            <div class= "swiper-slide"><img src="img/marcas/Tecumseh.png"></div>
+                            
+                            <div class= "swiper-slide"><img src="img/marcas/Whirlpool.png"></div>
+                           
+                            <div class= "swiper-slide"><img src="img/marcas/York.png"></div>
+                            <div class= "swiper-slide"><img src="img/marcas/Errecom.png"></div>
+                    </div>
+                </div>
+            </figure>
+</div>  
+<script>
+
+    //LOC reld
+    var cant_marcas=1;
+    if($(window).width()>=1100)
+        cant_marcas=10;
+    else{
+        if($(window).width()>=670)
+            cant_marcas=6;
+        else
+            cant_marcas=3;
+    }
+
+    var swipermarca = new Swiper('#slider_marcas .swiper-container', {
+        slidesPerView: cant_marcas,
+        spaceBetween: 3,
+        centeredSlides: true,
+        loop: true,
+        autoplayDisableOnInteraction: false,
+        autoplay: 500,
+        paginationClickable: true,
+        speed: 1000
+    });
+
+</script><div class="contenedor">
+
+<script> 
+$(document).ready(function(){
+
+    $( ".iconos" ).tooltip();
+    $( ".cuadro_stock" ).tooltip();
+
+    
+
+    abrir_login_mje('');
+}); //document.ready
+/*
+function ver_detalle(codi_arti){
+    $.fancybox.open({
+            'transitionIn'  :   'elastic',
+            'transitionOut' :   'fade',
+            'speedIn'       :   600, 
+            'speedOut'      :   200, 
+            'overlayShow'   :   false,
+            'titlePosition' :   'inside',
+            'href'          :   'detalle_articulo.php?cod_articulo='+codi_arti,
+            'type'          :   'ajax',
+            wrapCSS         :   'mifancy',
+            centerOnScroll  :   true,
+            autoDimensions  :   true
+
+        });
+}
+*/
+function agregar_carrito(codi_arti){
+
+    $.get( "agregar_carrito.php",{ articulo: codi_arti, cantidad: $("#"+codi_arti).val() }, function( data ) {
+        $( "#cant_carrito" ).html( data );
+    });
+
+
+}
+
+function abrir_login_mje(tipo){
+    if(tipo=='')
+        return;
+
+    //tipo=1 --> validacion de usuario correcta
+    //tipo=2 --> error de validacion de usuario
+    //tipo=3 --> session caducada
+
+    $.fancybox.open({
+            'transitionIn'  :   'elastic',
+            'transitionOut' :   'fade',
+            'speedIn'       :   600, 
+            'speedOut'      :   200, 
+            'overlayShow'   :   false,
+            'titlePosition' :   'inside',
+            'href'          :   'signin.php?form=home&mje_tipo='+tipo,
+            'type'          :   'ajax',
+            wrapCSS         :   'mifancy',
+            centerOnScroll  :   true,
+            autoDimensions  :   true
+
+        });
+}
+
+function valida(decimales,secuen) {
+    if (decimales=="S"){
+        var patron = /^\d*$/;                  //Expresi?n regular para aceptar solo n?meros enteros
+        var num = document.getElementById(secuen).value;
+        if (!patron.test(num)) {   //Este m?todo regresa tru si la cadena coincide con el patr?n definido en la expresi?n regular
+            num = 1;   
+            $('#'+secuen).val(num);
+        }
+        if (num>10000){
+            num = 1;
+        }
+    }
+}
+
+</script>
+
+
+    <main>
+
+        
+        <section class="resultado">
+            
+            <div class="destacado-titulo2 centrar"> - Productos Destacados - </div>
+            
+
+            <article class="articulos">
+                                <figure class="art-foto">
+                    <a href="articulo.php?cod_articulo=282020012" class="ver_detalle">
+                        <img src="img/ft1.jpeg">
+                    </a>
+                </figure>
+                <div class="art-pie">
+                    <div class="descripcion" >
+                        <h2 style="font-size:14px">Bomba de Vacio                      </h2>
+
+                    </div>
+                </div>
+                <div class="art-pie-footer">
+                    <div class="iconos">
+<!--                         <a href="articulo.php?cod_articulo=282020012">
+                            <i class="material-icons icono_art" title="Detalle">add_circle_outline</i>
+                        </a> -->
+                        
+                                              <!--    <a href="http://www.reld.com.ar/Archivos_productos/282020/282020.htm" target="_blank" title="Descargar Ficha Tï¿½cnica">
+                                <i class="material-icons icono_art" title="Descargar ficha tï¿½cnica">picture_as_pdf</i> -->
+                                <!-- <img src="img/pdf.png" style="height: 30px;"> 
+                            </a>-->
+                        
+                          
+                           <!-- <a href="javascript:;" onclick="agregar_carrito('282020012');">
+                                <i class="material-icons icono_art" title="Agregar al carrrito">add_shopping_cart</i>
+                            </a>
+                            <input type="number" class="input-rojo canti" id="282020012" onchange="valida('S',282020012)" value="1">
+                                                </div>
+                    <div class="precio">
+                                            <h3 style="display: inline-block;">$ 1.221.996,20</h3>
+                      
+                    </div>
+                </div>-->
+                
+            </article>
+
+            
+
+            <article class="articulos">
+                                <figure class="art-foto">
+                    <a href="articulo.php?cod_articulo=325620015" class="ver_detalle">
+                        <img src="img/ft2.jpeg">
+                    </a>
+                </figure>
+                <div class="art-pie">
+                    <div class="descripcion" >
+                        <h2 style="font-size:14px">Pestanadora                       </h2>
+
+                    </div>
+                </div>
+                <div class="art-pie-footer">
+                    <div class="iconos">
+<!--                         <a href="articulo.php?cod_articulo=325620015">
+                            <i class="material-icons icono_art" title="Detalle">add_circle_outline</i>
+                        </a> -->
+                        
+                                       <!--              <a href="http://www.reld.com.ar/Archivos_productos/325620010.pdf" target="_blank" title="Descargar Ficha Tï¿½cnica">
+                                <i class="material-icons icono_art" title="Descargar ficha tï¿½cnica">picture_as_pdf</i>
+                                <img src="img/pdf.png" style="height: 30px;"> 
+                            </a>
+                        
+                          
+                            <a href="javascript:;" onclick="agregar_carrito('325620015');">
+                                <i class="material-icons icono_art" title="Agregar al carrrito">add_shopping_cart</i>
+                            </a>
+                            <input type="number" class="input-rojo canti" id="325620015" onchange="valida('S',325620015)" value="1">
+                                                </div>
+                    <div class="precio">
+                                            <h3 style="display: inline-block;">$ 411.599,10</h3>
+                      
+                    </div>
+                </div>-->
+                
+            </article>
+
+            
+
+            <article class="articulos">
+                                <figure class="art-foto">
+                    <a href="articulo.php?cod_articulo=663040020" class="ver_detalle">
+                        <img src="img/ft3.jpeg">
+                    </a>
+                </figure>
+                <div class="art-pie">
+                    <div class="descripcion" >
+                        <h2 style="font-size:14px">Manifold                        </h2>
+
+                    </div>
+                </div>
+                <div class="art-pie-footer">
+                    <div class="iconos">
+<!--                         <a href="articulo.php?cod_articulo=663040020">
+                            <i class="material-icons icono_art" title="Detalle">add_circle_outline</i>
+                        </a> -->
+                        
+                                              <!--       <a href="http://www.reld.com.ar/Archivos_productos/663040020.pdf" target="_blank" title="Descargar Ficha Tï¿½cnica">
+                                <i class="material-icons icono_art" title="Descargar ficha tï¿½cnica">picture_as_pdf</i>
+                                <img src="img/pdf.png" style="height: 30px;"> 
+                            </a>
+                        
+                          
+                            <a href="javascript:;" onclick="agregar_carrito('663040020');">
+                                <i class="material-icons icono_art" title="Agregar al carrrito">add_shopping_cart</i>
+                            </a>
+                            <input type="number" class="input-rojo canti" id="663040020" onchange="valida('S',663040020)" value="1">
+                                                </div>
+                    <div class="precio">
+                                            <h3 style="display: inline-block;">$ 17.627,94</h3>
+                      
+                    </div>
+                </div>-->
+                
+            </article>
+
+            
+
+            <article class="articulos">
+                                <figure class="art-foto">
+                    <a href="articulo.php?cod_articulo=663701009" class="ver_detalle">
+                        <img src="img/ft4.jpeg">
+                    </a>
+                </figure>
+                <div class="art-pie">
+                    <div class="descripcion" >
+                        <h2 style="font-size:14px">Bomba de Vacio                       </h2>
+
+                    </div>
+                </div>
+                <div class="art-pie-footer">
+                    <div class="iconos">
+<!--                         <a href="articulo.php?cod_articulo=663701009">
+                            <i class="material-icons icono_art" title="Detalle">add_circle_outline</i>
+                        </a> -->
+                        
+                                                 <!--    <a href="http://www.reld.com.ar/Archivos_productos/663701008.pdf" target="_blank" title="Descargar Ficha Tï¿½cnica">
+                                <i class="material-icons icono_art" title="Descargar ficha tï¿½cnica">picture_as_pdf</i>
+                                <img src="img/pdf.png" style="height: 30px;">
+                            </a>
+                        
+                          
+                            <a href="javascript:;" onclick="agregar_carrito('663701009');">
+                                <i class="material-icons icono_art" title="Agregar al carrrito">add_shopping_cart</i>
+                            </a>
+                            <input type="number" class="input-rojo canti" id="663701009" onchange="valida('S',663701009)" value="1">
+                                                </div>
+                    <div class="precio">
+                                            <h3 style="display: inline-block;">$ 38.111,80</h3>
+                      
+                    </div>
+                </div> -->
+                
+            </article>
+
+            
+
+            <article class="articulos">
+                                <figure class="art-foto">
+                    <a href="articulo.php?cod_articulo=680615015" class="ver_detalle">
+                        <img src="img/ft5.jpeg">
+                    </a>
+                </figure>
+                <div class="art-pie">
+                    <div class="descripcion" >
+                        <h2 style="font-size:14px">Soldadora Autogena                       </h2>
+
+                    </div>
+                </div>
+                <div class="art-pie-footer">
+                    <div class="iconos">
+<!--                         <a href="articulo.php?cod_articulo=680615015">
+                            <i class="material-icons icono_art" title="Detalle">add_circle_outline</i>
+                        </a> -->
+                        
+                                         <!--           <a href="http://www.reld.com.ar/Archivos_productos/680615015.pdf" target="_blank" title="Descargar Ficha Tï¿½cnica">
+                                <i class="material-icons icono_art" title="Descargar ficha tï¿½cnica">picture_as_pdf</i>
+                                 <img src="img/pdf.png" style="height: 30px;"> 
+                            </a>
+                        
+                          
+                            <a href="javascript:;" onclick="agregar_carrito('680615015');">
+                                <i class="material-icons icono_art" title="Agregar al carrrito">add_shopping_cart</i>
+                            </a>
+                            <input type="number" class="input-rojo canti" id="680615015" onchange="valida('S',680615015)" value="1">
+                                                </div>
+                    <div class="precio">
+                                            <h3 style="display: inline-block;">$ 58.620,60</h3>
+                      
+                    </div>
+                </div>
+                -->
+            </article>
+
+            
+
+            <article class="articulos">
+                                <figure class="art-foto">
+                    <a href="articulo.php?cod_articulo=801113010" class="ver_detalle">
+                        <img src="img/ft6.jpeg">
+                    </a>
+                </figure>
+                <div class="art-pie">
+                    <div class="descripcion" >
+                        <h2 style="font-size:14px">Motocompresor Embraco                      </h2>
+
+                    </div>
+                </div>
+                <div class="art-pie-footer">
+                    <div class="iconos">
+<!--                         <a href="articulo.php?cod_articulo=801113010">
+                            <i class="material-icons icono_art" title="Detalle">add_circle_outline</i>
+                        </a> -->
+                        
+                                               <!--     <a href="http://www.reld.com.ar/Archivos_productos/801113005.pdf" target="_blank" title="Descargar Ficha Tï¿½cnica">
+                                <i class="material-icons icono_art" title="Descargar ficha tï¿½cnica">picture_as_pdf</i>
+                                 <img src="img/pdf.png" style="height: 30px;"> 
+                            </a>
+                        
+                          
+                            <a href="javascript:;" onclick="agregar_carrito('801113010');">
+                                <i class="material-icons icono_art" title="Agregar al carrrito">add_shopping_cart</i>
+                            </a>
+                            <input type="number" class="input-rojo canti" id="801113010" onchange="valida('S',801113010)" value="1">
+                                                </div>
+                    <div class="precio">
+                                            <h3 style="display: inline-block;">$ 11.841,28</h3>
+                      
+                    </div>
+                </div>
+                -->
+            </article>
+
+            
+
+            <article class="articulos">
+                                <figure class="art-foto">
+                    <a href="articulo.php?cod_articulo=900610050" class="ver_detalle">
+                        <img src="img/ft7.jpeg">
+                    </a>
+                </figure>
+                <div class="art-pie">
+                    <div class="descripcion" >
+                        <h2 style="font-size:14px">Tester de Compresores</h2>
+
+                    </div>
+                </div>
+                <div class="art-pie-footer">
+                    <div class="iconos">
+<!--                         <a href="articulo.php?cod_articulo=900610050">
+                            <i class="material-icons icono_art" title="Detalle">add_circle_outline</i>
+                        </a> -->
+                        
+                                             <!--       <a href="http://www.reld.com.ar/Archivos_productos/900610050.pdf" target="_blank" title="Descargar Ficha Tï¿½cnica">
+                                <i class="material-icons icono_art" title="Descargar ficha tï¿½cnica">picture_as_pdf</i>
+                                 <img src="img/pdf.png" style="height: 30px;"> 
+                            </a>
+                        
+                          
+                            <a href="javascript:;" onclick="agregar_carrito('900610050');">
+                                <i class="material-icons icono_art" title="Agregar al carrrito">add_shopping_cart</i>
+                            </a>
+                            <input type="number" class="input-rojo canti" id="900610050" onchange="valida('S',900610050)" value="1">
+                                                </div>
+                    <div class="precio">
+                                            <h3 style="display: inline-block;">$ 475.681,20</h3>
+                      
+                    </div>
+                </div>
+                -->
+            </article>
+
+            
+
+            <article class="articulos">
+                                <figure class="art-foto">
+                    <a href="articulo.php?cod_articulo=905027022" class="ver_detalle">
+                        <img src="img/ft8.jpeg">
+                    </a>
+                </figure>
+                <div class="art-pie">
+                    <div class="descripcion" >
+                        <h2 style="font-size:14px">REFRIGERANTES                        </h2>
+
+                    </div>
+                </div>
+                <div class="art-pie-footer">
+                    <div class="iconos">
+<!--                         <a href="articulo.php?cod_articulo=905027022">
+                            <i class="material-icons icono_art" title="Detalle">add_circle_outline</i>
+                        </a> -->
+                        
+                                            <!--          <a href="http://www.reld.com.ar/Archivos_productos/905027022.pdf" target="_blank" title="Descargar Ficha Tï¿½cnica">
+                                <i class="material-icons icono_art" title="Descargar ficha tï¿½cnica">picture_as_pdf</i>
+                               <img src="img/pdf.png" style="height: 30px;"> 
+                            </a>
+                        
+                          
+                            <a href="javascript:;" onclick="agregar_carrito('905027022');">
+                                <i class="material-icons icono_art" title="Agregar al carrrito">add_shopping_cart</i>
+                            </a>
+                            <input type="number" class="input-rojo canti" id="905027022" onchange="valida('S',905027022)" value="1">
+                                                </div>
+                    <div class="precio">
+                                            <h3 style="display: inline-block;">$ 142.459,60</h3>
+                      
+                    </div>
+                </div>
+                -->
+            </article>
+
+            
+
+            <article class="articulos">
+                                <figure class="art-foto">
+                    <a href="articulo.php?cod_articulo=983030006" class="ver_detalle">
+                        <img src="img/ft9.jpeg">
+                    </a>
+                </figure>
+                <div class="art-pie">
+                    <div class="descripcion" >
+                        <h2 style="font-size:14px">Aceite para bomba de vacio                      </h2>
+
+                    </div>
+                </div>
+                <div class="art-pie-footer">
+                    <div class="iconos">
+<!--                         <a href="articulo.php?cod_articulo=983030006">
+                            <i class="material-icons icono_art" title="Detalle">add_circle_outline</i>
+                        </a> -->
+                        <!-- 
+                                                    <a href="http://www.reld.com.ar/Archivos_productos/983030006.pdf" target="_blank" title="Descargar Ficha Tï¿½cnica">
+                                <i class="material-icons icono_art" title="Descargar ficha tï¿½cnica">picture_as_pdf</i>
+                                <img src="img/pdf.png" style="height: 30px;"> 
+                            </a>
+                        
+                          
+                            <a href="javascript:;" onclick="agregar_carrito('983030006');">
+                                <i class="material-icons icono_art" title="Agregar al carrrito">add_shopping_cart</i>
+                            </a>
+                            <input type="number" class="input-rojo canti" id="983030006" onchange="valida('S',983030006)" value="1">
+                                                </div>
+                    <div class="precio">
+                                            <h3 style="display: inline-block;">$ 155.577,77</h3>
+                      
+                    </div>
+                </div>
+                -->
+            </article>
+
+                            <article class="relleno"></article>
+                            <article class="relleno"></article>
+                            <article class="relleno"></article>
+            
+
+        </section>
+    </main>
+    <section class="paginacion">
+                    
+    </section>
+
+
+
+<script> 
+
+var titulo=' - Productos Destacados - ';
+$("#titulo_busqueda").html(titulo);
+</script>
+
+
+
+</div><!-- contenedor  -->
+
+<div class="footer-contendor-abajo">
+    <footer>
+        <div class="contenedor flex-footer">
+            <div class="footer-logos">
+                <div class="barra-redes"> 
+                    <div class="elemento-red-social-footer">
+                        <a href="https://www.instagram.com/valuprefrigeracion/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+
+                    <div class="elemento-red-social-footer">
+
+                        <a href="https://www.facebook.com/profile.php?id=100073247937505" target="_blank"><i class="fab fa-facebook-square"></i></a>
+
+                    </div>
+
+                   <!-- <div class="elemento-red-social-footer">
+
+                       <a href="https://twitter.com/reldsacifia" target="_blank"><i class="fab fa-twitter-square"></i></a>
+
+                   </div>
+
+                   <div class="elemento-red-social-footer">
+
+                       <a href="https://www.youtube.com/channel/UCiLhTz9tPTjDbZBl-7QMgpg/videos" target="_blank"><i class="fab fa-youtube"></i></a>
+
+                   </div>
+
+                   <div class="elemento-red-social-footer">
+
+                       <a href="https://ar.linkedin.com/company/reld-sacifia" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                   </div>-->
+
+               </div>
+
+           </div>
+            <div class="footer-textos">
+                <p>
+                    Copyright 2023 - VALUP- Refrigeracion - Todos los derechos reservados
+                </p>
+            </div>
+            <div class="footer-logos">
+              <!--  <a href="http://qr.afip.gob.ar/?qr=Xd53yjdypB2TlacPdh3_MA,," target="F960AFIPInfo"><img src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" id="Image3" alt="" style="width:50px;height:54px;"></a>
+                 <a href="img/perfil_impositivo_reld.pdf" target="_blank"><img src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" id="Image3" alt="" style="width:50px;height:54px;"></a> -->
+            </div>
+            <div class="footer-textos">
+                <p style="margin: 20px 0px 0px 0px; font-size:11px">
+                    <a href="https://www.facebook.com/profile.php?id=100063787968264">Desarrollado por Facundo Developer</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<style>
+    
+/*boton whatsapp*/
+#whatsapp{
+background-image: url(img/whatsapp2.png);
+    position: sticky;
+    z-index: 1039;
+    height: 85px;
+    width: 67px;
+    cursor: pointer;
+    bottom: 10px;
+    left: 13px;
+}
+
+
+
+</style>
+    <div id="whatsapp" onclick="document.location='https://wa.me/541126791315'"></div>
+
+    
+
+</body>
+</html>
